@@ -8,7 +8,7 @@ You have heard about DartPad right , how about we build something like that ? An
 **Tech Stack** : Flutter , Dart , Firebase
 ## UI Design Plan
 
-![](https://github.com/infiniteoverflow/Flutter-Tutorial-App/blob/main/ui%20design.png)
+![](https://github.com/infiniteoverflow/Flutter-Tutorial-App/blob/main/tentativeUI/ui%20design.png)
 
 ## We are a part of Cross WinterOfCode 21'
 
