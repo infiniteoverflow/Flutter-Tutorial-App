@@ -1,9 +1,8 @@
 # Flutter Tutorial App
 
-Well, You are here because you love Flutter , Right ?!
-How about we built an app using which people can learn flutter !!
+We know you love Flutter, isn't it? And that's why you are here! How about using your interest in building an app which can help people learn flutter!!
 
-You have heard about DartPad right , how about we build something like that ? And that too in an app !!
+You must have heard about DartPad right? So how about building something like that? And that too in an app!!
 
 **Tech Stack** : Flutter , Dart , Firebase
 
