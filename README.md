@@ -6,7 +6,7 @@ You must have heard about DartPad right? So how about building something like th
 
 **Tech Stack** : Flutter , Dart , Firebase
 
-**Kindly join the Project Channel for discussions related to this project:** discord.gg/uatbc8uhtq
+**Kindly join the Project Channel for discussions related to this project from** [here](discord.gg/uatbc8uhtq)
 ## Tentative UI
 
 ![](https://github.com/infiniteoverflow/Flutter-Tutorial-App/blob/main/tentativeUI/Screenshot%202021-02-12%20at%203.30.30%20PM.png)
