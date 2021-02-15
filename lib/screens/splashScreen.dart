@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial/screens/homeScreen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -68,18 +69,27 @@ class _SplashScreenState extends State<SplashScreen> {
                 Radius.circular(40),
               ),
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.pushReplacement(context,
+                      PageRouteBuilder(
+                        pageBuilder: (c, a1, a2) => HomeScreen(),
+                        transitionsBuilder: (c, anim, a2, child) =>
+                            FadeTransition(opacity: anim, child: child),
+                        // transitionDuration: Duration(milliseconds: 1000),
+                      )
+                  );
+                },
                 child: Container(
                   width: 300,
                   height: 55,
                   child: Center(
                       child: Text(
-                    "Get Started",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18),
-                  )),
+                        "Get Started",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18),
+                      )),
                 ),
               ),
             ),
