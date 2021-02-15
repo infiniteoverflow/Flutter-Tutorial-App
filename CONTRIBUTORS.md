@@ -9,9 +9,9 @@
    <td> https://github.com/muthuannamalai12 </td>
    <td>
       <ul>
-        <li>https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/10</li>
-        <li>https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/11</li>
-        <li>https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/18</li>
+         <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/10'>#10</a></li>
+        <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/11'>#11</a></li>
+        <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/18'>#18</a></li>
       </ul>
       
    </td>
@@ -24,7 +24,7 @@
    <td> https://github.com/96RadhikaJadhav </td>
    <td>
       <ul>
-        <li>https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/13</li>
+        <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/13'>#13</a></li>
       </ul>
       
    </td>
@@ -37,14 +37,14 @@
    <td> https://github.com/Saransh-cpp </td>
    <td>
       <ul>
-         <li>https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/14</li>
+         <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/14'>#14</a></li>
       </ul>
       
    </td>
    <td></td>
    <td>
       <ul>
-         <li>https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/19</li>
+         <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/19'>#19</a></li>
       </ul>
    </td>
    <td></td>
@@ -55,7 +55,7 @@
    <td></td>
    <td>
       <ul>
-        <li>https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/15</li>
+        <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/15'>#15</a></li>
       </ul>
    </td>
    <td></td>
