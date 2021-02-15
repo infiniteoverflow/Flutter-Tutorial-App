@@ -3,10 +3,10 @@
 ## Our Wonderful Contributors !!
 
 <table>
-<tr><th>Name</th><th>Github</th><th>Good First Issue</th><th>Easy</th><th>Medium</th><th>Hard</th><tr>
+<tr><th>Name</th><th>Github</th><th>Good First Issue (50) </th><th>Easy (100)</th><th>Medium (200)</th><th>Hard (500)</th><tr>
 <tr>
    <td> Muthu Annamalai.V</td>
-   <td> https://github.com/muthuannamalai12 </td>
+   <td> <a href='https://github.com/muthuannamalai12'>muthuannamalai12</a></td>
    <td>
       <ul>
          <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/10'>#10</a></li>
@@ -21,7 +21,7 @@
 </tr>
 <tr>
    <td> Radhika</td>
-   <td> https://github.com/96RadhikaJadhav </td>
+   <td><a href='https://github.com/96RadhikaJadhav'>96RadhikaJadhav</a></td>
    <td>
       <ul>
         <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/13'>#13</a></li>
@@ -34,7 +34,7 @@
 </tr>
 <tr>
    <td> Saransh Chopra</td>
-   <td> https://github.com/Saransh-cpp </td>
+   <td><a href='https://github.com/Saransh-cpp'>Saransh-cpp</a></td>
    <td>
       <ul>
          <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/14'>#14</a></li>
@@ -51,7 +51,7 @@
 </tr>
 <tr>
    <td> Hemang Sinha</td>
-   <td> https://github.com/hemangdtu </td>
+   <td> <a href='https://github.com/hemangdtu'>hemangdtu</a></td>
    <td></td>
    <td>
       <ul>
