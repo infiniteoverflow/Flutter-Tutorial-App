@@ -13,8 +13,6 @@ You must have heard about DartPad right? So how about building something like th
 
 ![](https://github.com/infiniteoverflow/Flutter-Tutorial-App/blob/main/tentativeUI/splash.png)
 
-![](https://github.com/infiniteoverflow/Flutter-Tutorial-App/blob/main/tentativeUI/ui%20design.png)
-
 ## UI Design Plan
 
 ![](https://github.com/infiniteoverflow/Flutter-Tutorial-App/blob/main/tentativeUI/ui%20design.png)
