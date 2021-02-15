@@ -84,12 +84,12 @@ class _SplashScreenState extends State<SplashScreen> {
                   height: 55,
                   child: Center(
                       child: Text(
-                    "Get Started",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18),
-                  )),
+                        "Get Started",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18),
+                      )),
                 ),
               ),
             ),

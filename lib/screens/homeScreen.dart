@@ -11,7 +11,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.white,
+            backgroundColor: Colors.white,
             appBar: AppBar(
               elevation: 0,
               backgroundColor: Colors.white,
@@ -50,6 +50,121 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 )
               ],
+            ),
+            drawer: Drawer(),
+            body: Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Text(
+                    'What would you like to\nlearn today?',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  Column(
+                    children: [
+                      Container(
+                        height: MediaQuery
+                            .of(context)
+                            .size
+                            .height / 7,
+                        width: MediaQuery
+                            .of(context)
+                            .size
+                            .width / 1.2,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(40),
+                            ),
+                            border: Border.all(
+                                color: Colors.grey
+                            )
+                        ),
+                        child: InkWell(
+                          onTap: () {},
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.all(12.0),
+                                child: Image.asset(
+                                    'assets/icons/dart.jpg'
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.fromLTRB(
+                                    0, 0, 100, 0),
+                                child: Text(
+                                  'DART',
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 35,
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: MediaQuery
+                            .of(context)
+                            .size
+                            .height / 15,
+                      ),
+                      Container(
+                        height: MediaQuery
+                            .of(context)
+                            .size
+                            .height / 7,
+                        width: MediaQuery
+                            .of(context)
+                            .size
+                            .width / 1.2,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(40),
+                            ),
+                            border: Border.all(
+                                color: Colors.grey
+                            )
+                        ),
+                        child: InkWell(
+                          onTap: () {},
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.all(12.0),
+                                child: Image.asset(
+                                    'assets/images/flutter_logo.png'
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.fromLTRB(0, 0, 67, 0),
+                                child: Text(
+                                  'FLUTTER',
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 35,
+                                  ),
+                                ),
+                              )
+
+                            ],
+                          ),
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
             )
         )
     );
