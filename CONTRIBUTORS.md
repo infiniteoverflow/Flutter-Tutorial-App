@@ -14,14 +14,18 @@
       </ul>
       
    </td>
-   <td></td>
+   <td>  
+      <ul>
+         <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/21'>#21</a></li>
+      </ul>
+   </td>
    <td>
       <ul>
          <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/19'>#19</a></li>
       </ul>
    </td>
    <td></td>
-   <td>250</td>
+   <td>350</td>
 </tr>
 
 <tr>
