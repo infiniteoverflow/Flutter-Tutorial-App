@@ -49,11 +49,40 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  Future checkForIntro() async {
+    HivePreferences hivePreferences = Hive.box('preferences').getAt(0) as HivePreferences;
+    return hivePreferences.isFirstTime;
+  }
+
+  setisFirstTime() {
+    Hive.box('preferences').putAt(0, HivePreferences(isFirstTime: false));
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen()
+      home: AnimatedSplashScreen(
+          splash: SplashScreen(),
+          nextScreen: FutureBuilder(
+              future: checkForIntro(),
+              builder: (context, snapshot) {
+                if (snapshot.hasData) {
+                  if (snapshot.data == false) {
+                    return HomeScreen();
+                  } else {
+                    setisFirstTime();
+                    return IntroScreen();
+                  }
+                } else {
+                  return Center(
+                    child: CircularProgressIndicator(),
+                  );
+                }
+              }
+          )
+      )
     );
   }
 }
