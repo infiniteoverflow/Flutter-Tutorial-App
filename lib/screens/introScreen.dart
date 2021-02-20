@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/models/introScreen.dart';
 import 'package:flutter_tutorial/screens/homeScreen.dart';
+import 'package:flutter_tutorial/utils/constants.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 
@@ -78,6 +79,7 @@ class _IntroScreenState extends State<IntroScreen> {
   }
 
   Align bottomNavigation(BuildContext context) {
+    Constants constants = Constants();
     return Align(
       alignment: Alignment.bottomCenter,
       child: Row(
@@ -87,7 +89,7 @@ class _IntroScreenState extends State<IntroScreen> {
             controller: _pageController,
             count: 3,
             effect: WormEffect(
-              activeDotColor: Colors.blue,
+              activeDotColor: constants.primaryColor,
               dotHeight: 12.0,
               dotWidth: 12.0,
             ),
@@ -120,7 +122,7 @@ class _IntroScreenState extends State<IntroScreen> {
                   ),),
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.blue,
+                  color: constants.secondaryColor,
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(15.0)),
                 ),

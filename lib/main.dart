@@ -26,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body:
-          IntroScreen(), // This trailing comma makes auto-formatting nicer for build methods.
+          SplashScreen(), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
