@@ -8,6 +8,28 @@ import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart' as path;
 
 Future<void> main() async {
+
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final directory = await path.getApplicationDocumentsDirectory();
+  Hive.init(directory.path);
+
+  Hive.registerAdapter(HivePreferencesAdapter());
+  final result = await Hive.openBox('preferences');
+
+  try {
+    final r = result.getAt(0) as HivePreferences ;
+  } on RangeError catch (e) {
+    print('Exception');
+    final r = result.add(HivePreferences(
+        isFirstTime: true,
+        darkTheme: false
+    ));
+  }
+
+  final r = result.getAt(0) as HivePreferences ;
+  print("First Time : ${r.isFirstTime}");
+
   runApp(MyApp());
 }
 
