@@ -13,19 +13,6 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    homePageTimer();
-  }
-
-  homePageTimer() async {
-    Timer(Duration(seconds: 3), () async {
-      Navigator.pushReplacement(
-          context, PageRouteBuilder(
-        pageBuilder: (c, a1, a2) => HomeScreen(),
-        transitionsBuilder: (c, anim, a2, child) =>
-            FadeTransition(opacity: anim, child: child),
-        transitionDuration: Duration(milliseconds: 1500),
-      ));  // pushing HomePage()
-    });
   }
 
   @override

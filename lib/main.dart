@@ -65,6 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
       debugShowCheckedModeBanner: false,
       home: AnimatedSplashScreen(
           splash: SplashScreen(),
+          splashIconSize: 260,
+          // pageTransitionType: ,
           nextScreen: FutureBuilder(
               future: checkForIntro(),
               builder: (context, snapshot) {
