@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial/screens/introScreen.dart';
 import 'package:flutter_tutorial/screens/splashScreen.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body:
-          SplashScreen(), // This trailing comma makes auto-formatting nicer for build methods.
+          IntroScreen(), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

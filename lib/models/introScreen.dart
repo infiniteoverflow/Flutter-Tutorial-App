@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class IntroScreenModel extends StatelessWidget {
 
@@ -13,8 +14,8 @@ class IntroScreenModel extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(
-            "assets/$image",
+          SvgPicture.asset(
+            "assets/images/$image",
             height: 200,
           ),
           const SizedBox(height: 50),
