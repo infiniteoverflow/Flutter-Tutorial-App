@@ -25,6 +25,9 @@ dependencies:
     sdk: flutter
   smooth_page_indicator: ^0.2.0
   flutter_svg: 0.18.0
+  hive: ^1.4.4+1
+  hive_flutter: ^0.3.1
+  animated_splash_screen: ^1.0.1+2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -34,6 +37,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  hive_generator: ^0.8.2
+  build_runner:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

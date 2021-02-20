@@ -1,8 +1,7 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/screens/homeScreen.dart';
-import 'package:flutter_tutorial/screens/introScreen.dart';
+
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -17,11 +16,11 @@ class _SplashScreenState extends State<SplashScreen> {
     homePageTimer();
   }
 
-  homePageTimer() {
+  homePageTimer() async {
     Timer(Duration(seconds: 3), () async {
       Navigator.pushReplacement(
           context, PageRouteBuilder(
-        pageBuilder: (c, a1, a2) => IntroScreen(),
+        pageBuilder: (c, a1, a2) => HomeScreen(),
         transitionsBuilder: (c, anim, a2, child) =>
             FadeTransition(opacity: anim, child: child),
         transitionDuration: Duration(milliseconds: 1500),
