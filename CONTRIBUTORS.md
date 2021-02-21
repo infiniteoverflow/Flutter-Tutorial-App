@@ -23,6 +23,9 @@
       <ul>
          <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/19'>#19</a></li>
       </ul>
+      <ul>
+         <li><a href='https://github.com/infiniteoverflow/Flutter-Tutorial-App/pull/25'>#25</a></li>
+      </ul>
    </td>
    <td></td>
    <td>350</td>
